@@ -1,6 +1,6 @@
 # tree-sitter-bsn
 
-A [Tree-sitter](https://tree-sitter.github.io/) grammar for [Bevy Scene Notation (BSN)](https://bsn.dev/).
+[中文](./README_zh.md) | A [Tree-sitter](https://tree-sitter.github.io/) grammar for [Bevy Scene Notation (BSN)](https://bevy.org/).
 
 ## Installation
 
@@ -122,6 +122,6 @@ fn player() -> impl Scene {
 
 ## Links
 
-- [Bevy Scene Notation Documentation](https://bsn.dev/)
+- [Bevy Scene Notation Documentation](https://bevy.org/)
 - [Tree-sitter Documentation](https://tree-sitter.github.io/)
 - [Helix Editor](https://helix-editor.com/)
