@@ -1,0 +1,50 @@
+==================
+Complex scene
+==================
+
+:"player.bsn"
+Player
+Sprite { image: "player.png" }
+Transform {
+    translation: Vec3 { y: 4.0 }
+}
+Children [
+    (Hat Sprite { image: "hat.png" })
+]
+
+---
+
+(source_file
+  (inherit_declaration
+    (string))
+  (entity
+    (identifier))
+  (entity
+    (identifier)
+    (struct_body
+      (field_assignment
+        (identifier)
+        (string))))
+  (entity
+    (identifier)
+    (struct_body
+      (field_assignment
+        (identifier)
+        (entity
+          (identifier)
+          (struct_body
+            (field_assignment
+              (identifier)
+              (number)))))))
+  (entity
+    (identifier)
+    (block
+      (tuple_body
+        (entity
+          (identifier))
+        (entity
+          (identifier)
+          (struct_body
+            (field_assignment
+              (identifier)
+              (string))))))))

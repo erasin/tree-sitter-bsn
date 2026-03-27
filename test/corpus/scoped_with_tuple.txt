@@ -1,0 +1,17 @@
+==================
+Scoped identifier with tuple body
+==================
+
+Transform::from_xyz(1., 2., 3.)
+
+---
+
+(source_file
+  (entity
+    (scoped_identifier
+      (identifier)
+      (identifier))
+    (tuple_body
+      (number)
+      (number)
+      (number))))

@@ -1,0 +1,13 @@
+==================
+Entity in tuple body
+==================
+
+Entity1 Entity2
+
+---
+
+(source_file
+  (entity
+    (identifier))
+  (entity
+    (identifier)))

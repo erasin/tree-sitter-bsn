@@ -1,0 +1,15 @@
+==================
+Entity with struct body
+==================
+
+Sprite { image: "player.png" }
+
+---
+
+(source_file
+  (entity
+    (identifier)
+    (struct_body
+      (field_assignment
+        (identifier)
+        (string)))))

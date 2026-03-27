@@ -1,0 +1,15 @@
+==================
+Template patch @mytemplate
+==================
+
+@mytemplate { value: 10 }
+
+---
+
+(source_file
+  (template_patch
+    (identifier)
+    (struct_body
+      (field_assignment
+        (identifier)
+        (number)))))

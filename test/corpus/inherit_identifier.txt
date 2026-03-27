@@ -1,0 +1,11 @@
+==================
+Inherit from identifier
+==================
+
+:player
+
+---
+
+(source_file
+  (inherit_declaration
+    (identifier)))

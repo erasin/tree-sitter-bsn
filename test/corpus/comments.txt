@@ -1,0 +1,13 @@
+==================
+Comments
+==================
+
+Player
+// This is a comment
+
+---
+
+(source_file
+  (entity
+    (identifier))
+  (comment))

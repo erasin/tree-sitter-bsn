@@ -1,0 +1,14 @@
+==================
+Template patch with tuple
+==================
+
+@mytemplate(10, 20)
+
+---
+
+(source_file
+  (template_patch
+    (identifier)
+    (tuple_body
+      (number)
+      (number))))

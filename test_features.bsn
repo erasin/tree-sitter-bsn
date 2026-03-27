@@ -1,0 +1,17 @@
+:"player.bsn"
+Player
+Sprite { image: "player.png" }
+Health(10)
+Transform {
+    translation: Vec3 { y: 4.0 }
+}
+on(|jump: On<Jump>| {
+    info!("player jumped!")
+})
+Children [
+    (Hat Sprite { image: "hat.png" })
+]
+@mytemplate { value: 10. }
+Emotion::Happy { amount: 10 }
+Transform::from_xyz(1., 2., 3.)
+Transform::IDENTITY

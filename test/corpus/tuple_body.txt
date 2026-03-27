@@ -1,0 +1,13 @@
+==================
+Entity with tuple body
+==================
+
+Health(10)
+
+---
+
+(source_file
+  (entity
+    (identifier)
+    (tuple_body
+      (number))))

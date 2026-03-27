@@ -1,0 +1,18 @@
+:"player.bsn"
+Player
+Sprite { image: "player.png" }
+Health(10)
+Transform {
+    translation: Vec3 { y: 4.0 }
+}
+Children [
+    (
+        Hat
+        Sprite { image: "cute_hat.png" }
+        Transform { translation: Vec3 { y: 3.0 } }
+    ),
+    (:sword Transform { translation: Vec3 { x: 10. } })
+]
+
+#Root
+#MyButton

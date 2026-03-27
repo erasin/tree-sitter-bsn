@@ -1,0 +1,25 @@
+==================
+Block (Children)
+==================
+
+Children [
+    (Hat),
+    (Sprite { image: "hat.png" })
+]
+
+---
+
+(source_file
+  (entity
+    (identifier)
+    (block
+      (tuple_body
+        (entity
+          (identifier)))
+      (tuple_body
+        (entity
+          (identifier)
+          (struct_body
+            (field_assignment
+              (identifier)
+              (string))))))))

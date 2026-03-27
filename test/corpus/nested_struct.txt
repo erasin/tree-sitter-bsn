@@ -1,0 +1,22 @@
+==================
+Nested struct body
+==================
+
+Transform {
+    translation: Vec3 { y: 4.0 }
+}
+
+---
+
+(source_file
+  (entity
+    (identifier)
+    (struct_body
+      (field_assignment
+        (identifier)
+        (entity
+          (identifier)
+          (struct_body
+            (field_assignment
+              (identifier)
+              (number))))))))

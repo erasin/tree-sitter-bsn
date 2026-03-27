@@ -1,0 +1,5 @@
+Player
+Sprite { image: "player.png" }
+Health(10)
+Transform { translation: Vec3 { y: 4.0 } }
+Children [ Hat, Sprite { image: "hat.png" } ]

@@ -1,0 +1,17 @@
+==================
+Scoped identifier with struct
+==================
+
+Emotion::Happy { amount: 10 }
+
+---
+
+(source_file
+  (entity
+    (scoped_identifier
+      (identifier)
+      (identifier))
+    (struct_body
+      (field_assignment
+        (identifier)
+        (number)))))

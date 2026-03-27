@@ -1,0 +1,11 @@
+==================
+Name shorthand
+==================
+
+#Root
+
+---
+
+(source_file
+  (name_shorthand
+    (identifier)))

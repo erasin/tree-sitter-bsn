@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-bsn",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for BSN (Bevy Scene Notation)",
+  "main": "grammar.js",
+  "scripts": {
+    "build": "tree-sitter generate",
+    "test": "tree-sitter test",
+    "parse": "tree-sitter parse test.bsn"
+  },
+  "keywords": ["tree-sitter", "bsn", "bevy"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}

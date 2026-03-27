@@ -1,0 +1,13 @@
+==================
+Scoped identifier without body (constant)
+==================
+
+Transform::IDENTITY
+
+---
+
+(source_file
+  (entity
+    (scoped_identifier
+      (identifier)
+      (identifier))))

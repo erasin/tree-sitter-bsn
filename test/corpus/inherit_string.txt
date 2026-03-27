@@ -1,0 +1,11 @@
+==================
+Inherit declaration
+==================
+
+:"player.bsn"
+
+---
+
+(source_file
+  (inherit_declaration
+    (string)))

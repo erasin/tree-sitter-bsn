@@ -1,0 +1,11 @@
+==================
+Basic entity
+==================
+
+Player
+
+---
+
+(source_file
+  (entity
+    (identifier)))

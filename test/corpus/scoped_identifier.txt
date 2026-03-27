@@ -1,0 +1,13 @@
+==================
+Scoped identifier (Enum::Variant)
+==================
+
+Emotion::Happy
+
+---
+
+(source_file
+  (entity
+    (scoped_identifier
+      (identifier)
+      (identifier))))
