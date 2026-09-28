@@ -1,0 +1,19 @@
+==================
+Name shorthand with string
+==================
+
+Children [
+    #"Directional Light",
+    #Root
+]
+
+---
+
+(source_file
+  (entity
+    (identifier)
+    (block
+      (name_shorthand
+        (string))
+      (name_shorthand
+        (identifier)))))

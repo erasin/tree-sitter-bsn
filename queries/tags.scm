@@ -6,4 +6,4 @@
 
 ; Name shorthands as definitions
 (name_shorthand
-  (identifier) @definition.variable)
+  [(identifier) (string)] @definition.variable)
