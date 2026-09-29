@@ -71,7 +71,7 @@ module.exports = grammar({
       $._value,
     ),
 
-    name_shorthand: ($) => seq("#", $.identifier),
+    name_shorthand: ($) => seq("#", choice($.identifier, $.string)),
 
     template_patch: ($) => seq(
       "@",

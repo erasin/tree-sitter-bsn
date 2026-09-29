@@ -24,7 +24,9 @@
 
 ; Name shorthands like #Root, #MyButton
 (name_shorthand
-  "#" @attribute
+  "#" @attribute)
+
+(name_shorthand
   (identifier) @variable.other)
 
 ; Template patch @mytemplate
